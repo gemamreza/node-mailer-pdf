@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>INVOICE</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Tagihan Untuk {{nama}}</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>No Invoice</td>
+                <td>Nama</td>
+                <td>Tanggal</td>
+                <td>Total Tagihan</td>
+                <td>Jatuh Tempo</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{no}}</td>
+                <td>{{nama}}</td>
+                <td>{{tanggal}}</td>
+                <td>{{total}}</td>
+                <td>{{jatuhtempo}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </div>
+  </body>
+</html>
